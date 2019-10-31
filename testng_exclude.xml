@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="SeleniumSamplesDay8.Exclude_TestCases_Using_TestNG">
+      	<methods>
+	       <include name="method_1"/>
+	       <include name="method_2"/>
+	       <exclude name="method_3"/>
+		</methods>
+	  </class>	
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
